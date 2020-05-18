@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="keycloak-app-profile-jee-vanilla:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>keycloak-app-profile-jee-vanilla</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="vanilla.war">
+      <element id="artifact" artifact-name="keycloak-app-profile-jee-vanilla:war exploded" />
+    </root>
+  </artifact>
+</component>

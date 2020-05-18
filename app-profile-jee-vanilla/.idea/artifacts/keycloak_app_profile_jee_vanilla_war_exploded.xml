@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="keycloak-app-profile-jee-vanilla:war exploded">
+    <output-path>$PROJECT_DIR$/target/vanilla</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>keycloak-app-profile-jee-vanilla</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="keycloak-app-profile-jee-vanilla" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/vanilla/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="keycloak-app-profile-jee-vanilla/web/Web" />
+    </root>
+  </artifact>
+</component>
